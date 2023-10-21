@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/reactuicicd/static/css/main.d5cf6978.css",
-    "main.js": "/reactuicicd/static/js/main.e3ee0663.js",
-    "static/js/787.a4dd6af2.chunk.js": "/reactuicicd/static/js/787.a4dd6af2.chunk.js",
-    "static/media/fa-solid-900.ttf": "/reactuicicd/static/media/fa-solid-900.d75e3fd1eb12e9bd6655.ttf",
-    "static/media/fa-brands-400.ttf": "/reactuicicd/static/media/fa-brands-400.016b4a6cdced82ab3aa1.ttf",
-    "static/media/fa-solid-900.woff2": "/reactuicicd/static/media/fa-solid-900.b6879d41b0852f01ed5b.woff2",
-    "static/media/fa-brands-400.woff2": "/reactuicicd/static/media/fa-brands-400.878f31251d960bd6266f.woff2",
-    "static/media/fa-regular-400.ttf": "/reactuicicd/static/media/fa-regular-400.50701fbb8177c2dde530.ttf",
-    "static/media/fa-regular-400.woff2": "/reactuicicd/static/media/fa-regular-400.b041b1fa4fe241b23445.woff2",
-    "static/media/fa-v4compatibility.ttf": "/reactuicicd/static/media/fa-v4compatibility.c6a0c95b0a95c4553700.ttf",
-    "static/media/fa-v4compatibility.woff2": "/reactuicicd/static/media/fa-v4compatibility.1bac2991f3dbfa237aec.woff2",
-    "index.html": "/reactuicicd/index.html",
-    "main.d5cf6978.css.map": "/reactuicicd/static/css/main.d5cf6978.css.map",
-    "main.e3ee0663.js.map": "/reactuicicd/static/js/main.e3ee0663.js.map",
-    "787.a4dd6af2.chunk.js.map": "/reactuicicd/static/js/787.a4dd6af2.chunk.js.map"
+    "main.css": "/React-CICD/static/css/main.d4a2f93c.css",
+    "main.js": "/React-CICD/static/js/main.4ecb2add.js",
+    "static/js/787.a4dd6af2.chunk.js": "/React-CICD/static/js/787.a4dd6af2.chunk.js",
+    "static/media/fa-solid-900.ttf": "/React-CICD/static/media/fa-solid-900.d75e3fd1eb12e9bd6655.ttf",
+    "static/media/fa-brands-400.ttf": "/React-CICD/static/media/fa-brands-400.016b4a6cdced82ab3aa1.ttf",
+    "static/media/fa-solid-900.woff2": "/React-CICD/static/media/fa-solid-900.b6879d41b0852f01ed5b.woff2",
+    "static/media/fa-brands-400.woff2": "/React-CICD/static/media/fa-brands-400.878f31251d960bd6266f.woff2",
+    "static/media/fa-regular-400.ttf": "/React-CICD/static/media/fa-regular-400.50701fbb8177c2dde530.ttf",
+    "static/media/fa-regular-400.woff2": "/React-CICD/static/media/fa-regular-400.b041b1fa4fe241b23445.woff2",
+    "static/media/fa-v4compatibility.ttf": "/React-CICD/static/media/fa-v4compatibility.c6a0c95b0a95c4553700.ttf",
+    "static/media/fa-v4compatibility.woff2": "/React-CICD/static/media/fa-v4compatibility.1bac2991f3dbfa237aec.woff2",
+    "index.html": "/React-CICD/index.html",
+    "main.d4a2f93c.css.map": "/React-CICD/static/css/main.d4a2f93c.css.map",
+    "main.4ecb2add.js.map": "/React-CICD/static/js/main.4ecb2add.js.map",
+    "787.a4dd6af2.chunk.js.map": "/React-CICD/static/js/787.a4dd6af2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d5cf6978.css",
-    "static/js/main.e3ee0663.js"
+    "static/css/main.d4a2f93c.css",
+    "static/js/main.4ecb2add.js"
   ]
 }
