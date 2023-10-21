@@ -1,6 +1,3 @@
-# This workflow will do a clean installation of node dependencies, cache/restore them, build the source code and run tests across different versions of node
-# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-nodejs
-
 name: Node.js CI
 
 on:
@@ -17,7 +14,6 @@ jobs:
     strategy:
       matrix:
         node-version: [18.x]
-        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
     - uses: actions/checkout@v3
@@ -26,11 +22,21 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    - run: npm i mdb-react-ui-kit
-    - run: npm i @fortawesome/fontawesome-free
-    - run: npm ci
-    - run: npm run build
-    - run: npm test
+
+    - name: Install mdb (Bootstrap)
+      run: npm i mdb-react-ui-kit
+      
+    - name: Install fontawesome
+      run: npm i @fortawesome/fontawesome-free
+    
+    - name: Dependencies
+      run: npm ci
+    
+    - name: Build 
+      run: npm run build
+
+    - name: Test
+      run: npm test
 
     - name: Deploy with gh-pages
       run: |
@@ -38,3 +44,13 @@ jobs:
         npm run deploy -- -u "github-actions-bot <support+actions@github.com>"
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Build & push Docker image
+      uses: mr-smithers-excellent/docker-build-push@v6
+      with:
+        image: softwareproject/reactjs-web-ui-images
+        tags: latest
+        registry: docker.io
+        dockerfile: Dockerfile
+        username: ${{ secrets.DOCKER_USERNAME }}
+        password: ${{ secrets.DOCKERHUB_TOKEN }}
