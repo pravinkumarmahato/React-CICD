@@ -29,7 +29,7 @@ jobs:
     - run: npm i mdb-react-ui-kit
     - run: npm i @fortawesome/fontawesome-free
     - run: npm ci
-    - run: npm run build --if-present
+    - run: npm run build
     - run: npm test
 
     - name: Deploy with gh-pages
