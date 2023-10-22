@@ -58,7 +58,21 @@ Create a CI-CD pipeline for a sample application (built in task 1 and/or 4 above
 ### Step-7:
   Now it will create a CI-CD workflow in the Github Action of the repository
   
-  Now whenever we do some change and push the code the Github Action will Integrate and Deploy the Code Automaticaly
+  Add the following steps in the workflow:
+    - Checkout
+    - Setup nodejs
+    - Install mdb (Bootstrap)
+    - name: Install fontawesome
+    - name: Install Dependencies
+    - name: Build app
+    - name: Test app
+    - name: Deploy the app to gh-pages
+    - name: Set up QEMU
+    - name: Set up Docker Buildx
+    - name: Login to Docker Hub
+    - name: Build and push Docker Image to Docker Hub
+    
+  Now whenever we do some change and push the code to Github Action,it will Integrate and Deploy the Code Automaticaly to the github pages.Then it will build docker image and push the docker image to the docker hub.
 ### Step-8:
   To Deploy the Project on the github pages go to Settings > Pages > Branch select the Branch in which the code of the project pushed and click save
   
