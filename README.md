@@ -72,8 +72,8 @@ Create a CI-CD pipeline for a sample application (built in task 1 and/or 4 above
         - Login to Docker Hub
         - Build and push Docker Image to Docker Hub
     
-      Now whenever we do some change and push the code to Github Action,it will Integrate and Deploy the Code Automaticaly to the github pages.Then it will build docker image and push the docker image to the docker hub.
+      Now whenever we do some change and push the code to Github Action,it will Integrate and Deploy the Code Automaticaly to the github pages.
+      Then it will build docker image and push the docker image to the docker hub.
 ### Step-8:
       To Deploy the Project on the github pages go to Settings > Pages > Branch select the Branch in which the code of the project pushed and click save
-  
       It will deploy the project an display the url of the deployed project.
